@@ -1,4 +1,4 @@
-<h1>Contenido de todas las carpetas y archivos desarrollados en el curso de: Desarrollo Web con JavaScript </h1>
+<h1>Contenido de todas las carpetas y archivos y códigos desarrollados en el curso de: Desarrollo Web con JavaScript </h1>
 <h2>Aprende las Bases de JavaScript - JavaScript Desde Cero</h2>
 <br>
 <h2>Al descargar este proyecto, debes efectuar los siguientes pasos:</h2>
