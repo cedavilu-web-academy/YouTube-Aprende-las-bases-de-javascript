@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 17 - Trabajando con eventos</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <div class="container">
+            <h1 id="titulo">Bienvenido a nuestro sitio web</h1>
+            <h3 class="parrafo">Somos una Empresa joven dedicada a la venta de alimentos, accesorios y juguetes para mascotas.</h3>
+            
+            <section class="ingreso">
+                <h2>Ingresar</h2>
+                <form action="#">
+                    <label for="email">Indique su email</label>
+                    <br>
+                    <input type="text" name="email" placeholder="ejemplo@gmail.com">
+                    <br>
+                    <br>
+                    <label for="password">Indique su clave</label>
+                    <br>
+                    <input type="password" name="password">
+                    <ion-icon name="eye-off-outline"></ion-icon>
+                    <br>
+                    <br>
+                    <button >Ingresar</button>
+                    <br>
+                    <a href="#">Aun no poseo una cuenta</a>
+                </form>
+            </section >
+            <section class="contenido">
+                <h2 class="destacado">Las mejores marcas y el</h2>
+                <br>
+                <h3 id="mascota"></h3>
+            </section>
+            <section class="botones">
+                <button id="perro" >Perro</button>
+                <button id="gato" >Gato</button>
+            </section>
+            <section class="mensaje">
+
+            </section>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--Incorporar JavaScript de forma - Externa-->
+    <script src="js/master.js"></script>
+</body>
+</html>

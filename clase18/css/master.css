@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fondo {
+    background-image: url('../img/cat-gcd34b7a27_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenido{
+    margin-top: 30px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.parrafo{
+    margin: 10px;
+}
+#iniciar {
+    font-size: 2rem;
+    font-family: Bebas Neue, cursive;
+}
+.ingreso{
+    margin-top: 20px;
+    width: 30%;
+    background-color: rgba(255,255,255,0.4);
+    text-align: center;
+    border-radius: 10px;
+}
+#perro{
+    color: white;
+    background-color: green;
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+#perro:hover{
+    color: green;
+    background-color: white;
+    border: green 2px solid;
+}
+#gato{
+    color: white;
+    background-color: tomato;
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+#gato:hover{
+    color: tomato;
+    background-color: white;
+    border: tomato 2px solid;
+}
+.perro{
+    background-image: url('../img/el-comi-genti.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gato{
+    background-image: url('../img/jackie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
